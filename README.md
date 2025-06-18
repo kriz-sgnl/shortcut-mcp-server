@@ -1,5 +1,33 @@
-Shortcut MCP Server for Claude desktop
-Requires nodejs and dir node_modules with required files
+1- Complete API Coverage: The server supports all major Shortcut operations including:
+- Stories (CRUD operations)
+- Epics (create, read, update)
+- Projects (create, read, update)
+- Members and team management
+- Labels and iterations
+- Search functionality
+- Workflow management
+
+2- TypeScript Implementation:
+- Full type safety with interfaces for all Shortcut entities
+- Proper error handling and validation
+- Modern ES modules structure
+
+3- Robust Error Handling:
+- API authentication validation
+- Network error handling
+- Detailed error messages
+- Configuration validation
+
+4- Easy Configuration:
+- Simple API token setup
+- Configurable base URL for enterprise instances
+- Connection testing on configuration
+
+
+-----
+
+Requires: Shortcut MCP Server for Claude desktop
+Requires: nodejs and dir node_modules (https://nodejs.org/en/download)
 
 What You Get
 
@@ -8,9 +36,9 @@ What You Get
 3- TypeScript Config (tsconfig.json): Optimized for modern Node.js
 4- Comprehensive Documentation (README.md): Setup instructions and API reference
 
-Desktop Instructions
-
-1- Create file: /Library/Application\ Support/Claude/claude_desktop_config.json
+Instructions
+1- Install Claude Desktop
+2- Create a kicak file: /Library/Application\ Support/Claude/claude_desktop_config.json
 
 and use this JS:
 {
