@@ -52,7 +52,7 @@ and use this JS:
 
 Add this configuration to your MCP settings:
 
-json
+```json
 {
   "mcpServers": {
     "shortcut": {
@@ -64,7 +64,7 @@ json
     }
   }
 }
-
+```
 
 Important: Replace /absolute/path/to/your/shortcut-mcp-server
 
