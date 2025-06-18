@@ -27,6 +27,7 @@
 -----
 
 Requires: Shortcut MCP Server for Claude desktop
+
 Requires: nodejs and dir node_modules (https://nodejs.org/en/download)
 
 What You Get
