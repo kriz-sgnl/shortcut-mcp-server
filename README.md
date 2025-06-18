@@ -47,17 +47,29 @@ Instructions
 2- Create a local file: /Library/Application\ Support/Claude/claude_desktop_config.json
 
 and use this JS:
+
 {
+
   "mcpServers": {
+  
     "shortcut": {
+    
       "command": "node",
+      
       "args": ["/absolute/path/to/your/shortcut-mcp-server/build/index.js"],
+      
       "env": {
+      
         "NODE_ENV": "production"
+        
       }
+      
     }
+    
   }
+  
 }
+
 
 Important: Replace /absolute/path/to/your/shortcut-mcp-server
 
