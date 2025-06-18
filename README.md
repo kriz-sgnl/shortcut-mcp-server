@@ -48,27 +48,22 @@ Instructions
 
 and use this JS:
 
-```{
+## MCP Server Configuration
 
+Add this configuration to your MCP settings:
+
+```json
+{
   "mcpServers": {
-  
     "shortcut": {
-    
       "command": "node",
-      
       "args": ["/absolute/path/to/your/shortcut-mcp-server/build/index.js"],
-      
       "env": {
-      
         "NODE_ENV": "production"
-        
       }
-      
     }
-    
   }
-  
-}```
+}
 
 
 Important: Replace /absolute/path/to/your/shortcut-mcp-server
