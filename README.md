@@ -48,7 +48,7 @@ Instructions
 
 and use this JS:
 
-{
+```{
 
   "mcpServers": {
   
@@ -68,7 +68,7 @@ and use this JS:
     
   }
   
-}
+}```
 
 
 Important: Replace /absolute/path/to/your/shortcut-mcp-server
