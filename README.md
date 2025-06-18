@@ -33,13 +33,18 @@ Requires: nodejs and dir node_modules (https://nodejs.org/en/download)
 What You Get
 
 1- Main Server File (src/index.ts): Complete MCP server implementation with 20+ tools
+
 2- Package Configuration (package.json): All necessary dependencies and scripts
+
 3- TypeScript Config (tsconfig.json): Optimized for modern Node.js
+
 4- Comprehensive Documentation (README.md): Setup instructions and API reference
 
 Instructions
+
 1- Install Claude Desktop
-2- Create a kicak file: /Library/Application\ Support/Claude/claude_desktop_config.json
+
+2- Create a local file: /Library/Application\ Support/Claude/claude_desktop_config.json
 
 and use this JS:
 {
@@ -59,9 +64,13 @@ Important: Replace /absolute/path/to/your/shortcut-mcp-server
 Usage
 
 1- Install dependencies: npm install
+
 2- Build the project: npm run build
+
 3- Configure your MCP client to use the built server
+
 4- Get your Shortcut API token from your account settings
+
 5- Start using the tools after running shortcut_configure
 
 The server provides a clean, consistent interface to Shortcut's powerful project management features, making it easy to integrate Shortcut operations into any MCP-compatible application or workflow.
